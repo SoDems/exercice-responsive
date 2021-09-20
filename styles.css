@@ -5,3 +5,24 @@
     padding-bottom: 3vh;
     padding-top: 3vh;
 }
+#femme-un img{
+    width: 100%;
+    height: auto;
+}
+#femme-deux img{
+    width: 100%;
+    height: auto;
+}
+#femme-trois img{
+    width: 100%;
+    height: auto;
+}
+.row{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#text span{
+    color: yellow;
+
+}
