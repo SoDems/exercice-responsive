@@ -21,8 +21,56 @@
     text-align: center;
     display: flex;
     align-items: center;
+    margin: 0;
+}
+.row div{
+    padding: 0;
 }
 #text span{
     color: yellow;
+}
+a{
+    color: black;
+}
+
+@media(max-width: 768px){
+    h2{
+        font-size: 3vh;
+    }
+    p{
+        font-size: 1.5vh;
+    }
+    h3{
+        font-size: 2.5vh;
+    }
+    .row{
+        margin-right: 0px;
+    }
+
+    #femme-un{
+        order: 5;
+    }
+    #femme-deux{
+        order: 4;
+    }
+    #femme-trois{
+        order: 1;
+    }
+    #text-1{
+        order: 2;
+    }
+    #text-2{
+        order: 3;
+    }
+    #text-3{
+        order: 6;
+    }
+    #text h1{
+        font-size: 3vh;
+    }
+    #text p{
+        font-size: 1.4vh;
+        text-align: center;
+    }
 
 }
